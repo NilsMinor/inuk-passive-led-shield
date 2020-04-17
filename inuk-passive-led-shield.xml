@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/nilsminor/Documents/hardware/inuk-passive-led-shield/inuk-passive-led-shield.sch</source>
+    <date>2020 April 13, Monday 20:41:04</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>inuk-passive-led-shield.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">61301011121</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EADD417</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">61300211121</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAEE6E8</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">61300411121</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAF4A7D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_PAD</value>
+      <footprint>LED_SMD:LED_1W_3W_R8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_PAD" description="Light emitting diode with pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB356FF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_PAD</value>
+      <footprint>LED_SMD:LED_1W_3W_R8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_PAD" description="Light emitting diode with pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB47991</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_PAD</value>
+      <footprint>LED_SMD:LED_1W_3W_R8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_PAD" description="Light emitting diode with pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB49CE9</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_PAD</value>
+      <footprint>LED_SMD:LED_1W_3W_R8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_PAD" description="Light emitting diode with pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB49CF2</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_PAD</value>
+      <footprint>LED_SMD:LED_1W_3W_R8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_PAD" description="Light emitting diode with pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB4B10E</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB5F6C8</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB611B5</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB614B3</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB61836</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Logo_NM</value>
+      <footprint>Custom:Logo_NM</footprint>
+      <libsource lib="Custom" part="Logo_NM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB6FA5B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Male">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="Logo_NM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Logo_NM</field>
+        <field name="Footprint">Custom:Logo_NM</field>
+      </fields>
+    </libpart>
+    <libpart lib="Device" part="LED_PAD">
+      <description>Light emitting diode with pad</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Users/nilsminor/Documents/kicad/kicad-symbols/Connector.lib</uri>
+    </library>
+    <library logical="Custom">
+      <uri>/Users/nilsminor/Documents/kicad/my-libraries/Custom.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Users/nilsminor/Documents/kicad/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Users/nilsminor/Documents/kicad/kicad-symbols/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="D1" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="/lio1">
+      <node ref="J2" pin="6"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="5" name="/lio2">
+      <node ref="J2" pin="7"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="6" name="/lio3">
+      <node ref="D3" pin="1"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="7" name="/lio4">
+      <node ref="D4" pin="1"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="8" name="/lio5">
+      <node ref="J2" pin="10"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="9" name="/sense">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="10" name="/thermal">
+      <node ref="D3" pin="3"/>
+      <node ref="D5" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D4" pin="3"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H4" pin="1"/>
+    </net>
+  </nets>
+</export>

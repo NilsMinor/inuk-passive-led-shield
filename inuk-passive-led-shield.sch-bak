@@ -21,6 +21,7 @@ F 0 "J2" H 4100 4850 50  0000 C CNN
 F 1 "Conn_01x10_Male" H 4208 4840 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal" H 4100 4350 50  0001 C CNN
 F 3 "~" H 4100 4350 50  0001 C CNN
+F 4 "61301011121" H 4100 4350 50  0001 C CNN "MPN"
 	1    4100 4350
 	1    0    0    -1  
 $EndComp
@@ -105,6 +106,7 @@ F 0 "J3" H 5400 4150 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 5322 3933 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5350 4050 50  0001 C CNN
 F 3 "~" H 5350 4050 50  0001 C CNN
+F 4 "61300211121" H 5350 4050 50  0001 C CNN "MPN"
 	1    5350 4050
 	-1   0    0    -1  
 $EndComp
@@ -143,6 +145,7 @@ F 0 "J1" H 4208 2939 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 4208 2940 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4100 2750 50  0001 C CNN
 F 3 "~" H 4100 2750 50  0001 C CNN
+F 4 "61300411121" H 4100 2750 50  0001 C CNN "MPN"
 	1    4100 2750
 	1    0    0    -1  
 $EndComp
@@ -380,10 +383,10 @@ Wire Wire Line
 Text Label 8250 1800 0    50   ~ 0
 thermal
 $Comp
-L Custom:Logo_NM U?
+L Custom:Logo_NM U1
 U 1 1 5EB6FA5B
 P 8850 2200
-F 0 "U?" H 8750 2250 50  0001 C CNN
+F 0 "U1" H 8750 2250 50  0001 C CNN
 F 1 "Logo_NM" H 8945 2234 50  0000 L CNN
 F 2 "Custom:Logo_NM" H 8894 2130 50  0001 C CNN
 F 3 "" H 8790 2186 50  0001 C CNN
@@ -405,7 +408,7 @@ Text Notes 7290 7240 0    50   ~ 0
 Text Notes 7360 7510 0    79   ~ 16
 Inuk passive led shield
 Text Notes 10570 7640 0    50   ~ 0
-1
+0.9
 Text Notes 10800 7640 0    50   ~ 0
 Nils Minor
 Text Notes 7020 6670 0    50   ~ 0

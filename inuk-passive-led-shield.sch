@@ -21,6 +21,7 @@ F 0 "J2" H 4100 4850 50  0000 C CNN
 F 1 "Conn_01x10_Male" H 4208 4840 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal" H 4100 4350 50  0001 C CNN
 F 3 "~" H 4100 4350 50  0001 C CNN
+F 4 "61301011121" H 4100 4350 50  0001 C CNN "MPN"
 	1    4100 4350
 	1    0    0    -1  
 $EndComp
@@ -105,25 +106,11 @@ F 0 "J3" H 5400 4150 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 5322 3933 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5350 4050 50  0001 C CNN
 F 3 "~" H 5350 4050 50  0001 C CNN
+F 4 "61300211121" H 5350 4050 50  0001 C CNN "MPN"
 	1    5350 4050
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5EAF031C
-P 5050 4200
-F 0 "#PWR0105" H 5050 3950 50  0001 C CNN
-F 1 "GND" H 5055 4027 50  0000 C CNN
-F 2 "" H 5050 4200 50  0001 C CNN
-F 3 "" H 5050 4200 50  0001 C CNN
-	1    5050 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 4150 5050 4150
-Wire Wire Line
-	5050 4150 5050 4200
-Text Notes 4900 3850 0    50   ~ 0
+Text Notes 4850 4300 0    50   ~ 0
 To connect an LDR\n
 Text Label 4600 4450 0    50   ~ 0
 lio1
@@ -143,6 +130,7 @@ F 0 "J1" H 4208 2939 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 4208 2940 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4100 2750 50  0001 C CNN
 F 3 "~" H 4100 2750 50  0001 C CNN
+F 4 "61300411121" H 4100 2750 50  0001 C CNN "MPN"
 	1    4100 2750
 	1    0    0    -1  
 $EndComp
@@ -410,4 +398,19 @@ Text Notes 10800 7640 0    50   ~ 0
 Nils Minor
 Text Notes 7020 6670 0    50   ~ 0
 Passive LED shield to connect to inuk-base pcb
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E98C1A2
+P 5100 3750
+F 0 "#PWR?" H 5100 3600 50  0001 C CNN
+F 1 "+3.3V" H 5115 3923 50  0000 C CNN
+F 2 "" H 5100 3750 50  0001 C CNN
+F 3 "" H 5100 3750 50  0001 C CNN
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4150 5100 4150
+Wire Wire Line
+	5100 4150 5100 3750
 $EndSCHEMATC
