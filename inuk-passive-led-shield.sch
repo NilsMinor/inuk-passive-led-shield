@@ -370,12 +370,12 @@ thermal
 $Comp
 L Custom:Logo_NM U1
 U 1 1 5EB6FA5B
-P 8850 2200
-F 0 "U1" H 8750 2250 50  0001 C CNN
-F 1 "Logo_NM" H 8945 2234 50  0000 L CNN
-F 2 "Custom:Logo_NM" H 8894 2130 50  0001 C CNN
-F 3 "" H 8790 2186 50  0001 C CNN
-	1    8850 2200
+P 8150 1250
+F 0 "U1" H 8050 1300 50  0001 C CNN
+F 1 "Logo_NM" H 8245 1284 50  0000 L CNN
+F 2 "Custom:Logo_NM" H 8194 1180 50  0001 C CNN
+F 3 "" H 8090 1236 50  0001 C CNN
+	1    8150 1250
 	1    0    0    -1  
 $EndComp
 Text Notes 8600 750  0    50   ~ 10
@@ -386,14 +386,10 @@ Text Notes 4050 2200 0    50   ~ 0
 External sensor input\n
 Text Notes 6050 2850 0    50   ~ 0
 3W high power LEDs, resistor is based on inuk-base pcb
-Text Notes 7390 7240 0    50   ~ 0
-1
-Text Notes 7290 7240 0    50   ~ 0
-1
 Text Notes 7360 7510 0    79   ~ 16
 Inuk passive led shield
 Text Notes 10570 7640 0    50   ~ 0
-0.9
+1.0
 Text Notes 10800 7640 0    50   ~ 0
 Nils Minor
 Text Notes 7020 6670 0    50   ~ 0
